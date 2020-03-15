@@ -1,4 +1,4 @@
-(defproject cloverage "1.1.3-SNAPSHOT"
+(defproject lambdaisland/cloverage "1.1.2-no-aot"
   :description "Form-level test coverage for clojure."
   :url "https://www.github.com/cloverage/cloverage"
   :scm {:name "git"
@@ -7,7 +7,6 @@
         :tag "HEAD"}
   :vcs :git
   :main ^:skip-aot cloverage.coverage
-  :aot [clojure.tools.reader]
   :license {:name "Eclipse Public License - v 1.0"
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo
